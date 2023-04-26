@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form method="POST">
+        {% csrf_token %}
+        {{SFO.as_p}}
+        <input type="submit" value="Click">
+    </form>
+</body>
+</html>
